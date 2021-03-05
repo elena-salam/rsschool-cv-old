@@ -1,4 +1,4 @@
-## Elena Salamakha
+# Elena Salamakha
 
 **e-mail: elena.salamakha.ua@gmail.com**
 
@@ -21,8 +21,8 @@ My main responsibilities was:
 
 ### Skills:
 
-HTML/CSS, **JavaScript**, React, Node.js, Git;
-_in study process I used such programms as **Photoshop, Figma, Trello**_
+- HTML/CSS, **JavaScript**, React, Node.js, Git;
+- _in study process I used such programms as **Photoshop, Figma, Trello**_
 
 ### Code example:
 
@@ -36,10 +36,10 @@ function squareDigits(num) {
 
 ### Experience:
 
-I have just study projects in my portfolio.
+I have just study-projects in my portfolio:
 
-[my study project-1] (https://elena-salam.github.io/goit-fe-course/modul-08/)
-[my study project-2] (https://elena-salam.github.io/Project/)
+[my study project-1](https://elena-salam.github.io/goit-fe-course/modul-08/)
+[my study project-2](https://elena-salam.github.io/Project/)
 
 ### Education:
 

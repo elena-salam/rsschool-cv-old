@@ -2,9 +2,9 @@
 
 **e-mail: elena.salamakha.ua@gmail.com**
 
-**m.t. +38 (095) 535-44-91**
+**phone: +38 (095) 535-44-91**
 
-### Subject:
+### Subject: web-developer
 
 My goal is to get good knowledge and experience in web-development for **getting a good offer to work in a stable IT-company**. I'd like to work in the local market as well as to a foreign company. And now I work hard to get new knowledge and experience to implement them into new projects.
 I have a 10-years experience as a sales manager in a software distribution company.

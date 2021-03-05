@@ -1,4 +1,4 @@
-# Elena Salamakha
+## Elena Salamakha
 
 **e-mail: elena.salamakha.ua@gmail.com**
 
@@ -6,12 +6,23 @@
 
 ### Subject:
 
-My goal is to get good knowledge and experience in web-development for getting an offer from IT-company. I'd like to work in the local market as well as to abroad company. I have a 10-years experience as a sales manager in a software distribution company. And now I work hard to get new knowledge and experience to implement them into new projects.
+My goal is to get good knowledge and experience in web-development for **getting a good offer to work in a stable IT-company**. I'd like to work in the local market as well as to a foreign company. And now I work hard to get new knowledge and experience to implement them into new projects.
+I have a 10-years experience as a sales manager in a software distribution company.
+My main responsibilities was:
+
+- maintain partner programs implemented by vendors:
+  - daily communications with partners;
+  - making webinars, presentations;
+  - conduct software licensing trainings;
+  - monitor activities and control stages of potentional deals/ projects/ opportunities;
+- make invoices and place orders;
+- make regular reports for internal usage and for vedors;
+- train and support new colleagues and partners;
 
 ### Skills:
 
 HTML/CSS, **JavaScript**, React, Node.js, Git;
-in study process I used such programms as Photoshop, Figma, Trello
+_in study process I used such programms as **Photoshop, Figma, Trello**_
 
 ### Code example:
 

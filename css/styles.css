@@ -21,10 +21,32 @@
 .address {
   padding: 15px;
 }
-.email::before {
-  background-image: url(../images/icons/at.svg);
-  background-repeat: no-repeat;
+.contact-items {
+  list-style: none;
 }
+.i {
+  background-image: url(../images/icons/at.svg);
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.p {
+  /* background-image: url(../images/icons/phone.svg); */
+  background-image: url(../images/icons/phone.png);
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  /* vertical-align: bottom; */
+}
+.h {
+  background-image: url(../images/icons/home.svg);
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  /* vertical-align: bottom; */
+}
+
 .project-link {
   text-decoration: none;
 }

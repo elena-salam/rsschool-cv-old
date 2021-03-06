@@ -20,6 +20,7 @@
 .phone,
 .address {
   padding: 15px;
+  font-size: 20px;
 }
 .contact-items {
   list-style: none;
@@ -37,14 +38,15 @@
   width: 16px;
   height: 16px;
   display: inline-block;
-  /* vertical-align: bottom; */
 }
 .h {
   background-image: url(../images/icons/home.svg);
   width: 16px;
   height: 16px;
   display: inline-block;
-  /* vertical-align: bottom; */
+}
+.name {
+  font-size: 40px;
 }
 
 .project-link {

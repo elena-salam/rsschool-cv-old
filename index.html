@@ -8,22 +8,26 @@
     <title>Document</title>
 </head>
 <body>
-    <main class="main">
-        <section class="section1">
-            <div class="contacts">
-                <h1 class="name">Elena Salamakha</h1>
-                <ul class="contact-items">
-                    <li><p class="email"><span class="icon-email"></span> elena.salamakha.ua@gmail.com</p></li>
-                    <li><p class="phone"><span class="icon-phone"></span>  +38 (095) 535-44-91</p></li>
-                    <li><p class="git"><span class="icon-git"></span> elena-salam</p></li>
-                    <li><p class="address"><span class="icon-home"></span> Kyiv, Ukraine</p></li>
-                </ul>
-            </div>
-            <img class="photo" src="images/2.jpg" alt="my photo" height="300">
-        </section>
-        <section class="section2">
-            <h2>Subject: web-developer</h2>
-            <p>My goal is to get good knowledge and experience in web-development for <b>getting a good offer to work in a stable IT-company</b>. I'd like to work in the local company as well as in a foreign company. And now I work hard to get new knowledge and experience to implement them into new projects.
+    <main class="wrapper">
+    <header class="profile">
+        <div class="contacts">
+            <h1 class="name">Elena Salamakha</h1>
+            <ul class="contact-items">
+                <li><p class="email"><span class="icon-email"></span> elena.salamakha.ua@gmail.com</p></li>
+                <li><p class="phone"><span class="icon-phone"></span>  +38 (095) 535-44-91/ Telegram</p></li>
+                <li><p class="git"><span class="icon-git"></span> elena-salam</p></li>
+                <li><p class="address"><span class="icon-home"></span> Kyiv, Ukraine</p></li>
+            </ul>
+        </div>
+        <figure>
+            <p><img class="photo" src="images/my-photo.jpg" alt="my photo" height="300" /></p>
+            <!-- <figcaption></figcaption> -->
+        </figure>
+    </header>
+    <!-- <main class="wrapper"> -->
+        <section class="subject">
+            <h2>Subject: full-stack developer</h2>
+            <p class="text">My goal is to get good knowledge and experience in web-development for <b>getting a good offer as web-developer in IT-company</b>. I'd like to work in the local company as well as in a foreign company. And now I work hard to get new knowledge and experience to implement them into new projects.
             I have a 10-years experience as a sales manager in a software distribution company. My main responsibilities was:</p>
             <ul>
                 <li>maintain partner programs implemented by vendors:
@@ -45,12 +49,13 @@
                 <i>in study process I used such programms as <b>Photoshop, Figma, Trello</b></i>
             </li>
             </ul>
-            <!-- <h3>Code example:</h3>
-            <p>```function squareDigits(num) {
-            const e = String(num).split("");
-            const digit = e.map(Number).map((el) => Math.pow(el, 2));
-            return parseInt(digit.join(""));
-            }```</p> -->
+            <h3>Code example:</h3>
+            <ul>
+                <li>
+                    <a href="https://filmoteka-38-1.netlify.app/developers">study-project on Netlify</a>
+                </li>
+            </ul>
+            
             <h3>Experience:</h3>
             <p>I have just study-projects in my portfolio:</p>
             <ul>
@@ -72,8 +77,15 @@
                 <li>level <b>Advanced</b></li>
             </ul>
         </section>
-    </main>
-
+    <!-- </main> -->
+    <footer class="wrapper-footer">
+        <ul class="box">
+            <li><logo><span class="logo"></span></logo></li>
+            <li><a class="rsSchool-link" href="https://rs.school/js/">Free course JS</a></li>
+            <li><a href="https://youtu.be/U1P-7NBFugM"><span class="youTube"></span></a></li>
+        </ul>
+    </footer>
+</main>
     
 </body>
 </html>

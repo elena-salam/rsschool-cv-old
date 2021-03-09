@@ -5,36 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wildlife</title>
+    <link rel="stylesheet" href="css/normaize.css">
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
-    <header>
-        <h1 class="logo"><span class="svg-icon"></span>Wildlife</h1>
-        <nav>
-            <ul>
-                <li>blog</li>
-                <li>contacts</li>
-                <li>search</li>
-                <li>sign in</li>
-            </ul>
-        </nav>
-    </header>
+    <div class="frame">
+        <div class="wrapper">
+            <header class="main-header">
+                <h1 class="site-logo"><span class="svg-icon"></span>
+                    Wildlife
+                </h1>
+                <nav>
+                    <ul class="main-menu">
+                        <li class="main-menu-item">
+                            <a class="main-menu-link" href="#">blog</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a class="main-menu-link" href="#">contacts</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a class="main-menu-link" href="#">search</a>
+                        </li>
+                        <li class="main-menu-item">
+                            <a class="main-menu-link" href="#">sign in</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    
     <section class="survival">
-        <h2>Survival</h2>
-        <p>What this means is that we exist to help protect our environment and do in numbers of ways. You can save the planet by donation.</p>
+        <h2 class="survival-title">Survival</h2>
+        <p class="donation-text">What this means is that we exist to help protect our environment and do in numbers of ways. You can save the planet by donation.</p>
         <button>Donate</button>
     </section>
     <section class="latest_articles">
         <h3>Latest articles</h3>
         <p>Breaking news from the wild</p>
-        <ul>
-            <li>
+        <ul class="article-list">
+            <li class="article-item">
+                <img src="assets/images/articles/dear.svg" alt="Dear" width="300" height="360">
                 <h4>Dear</h4>
                 <p>Naturalist investigation</p>
             </li>
-            <li>
+            <li class="article-item">
+                <img src="assets/images/articles/squirrel.svg" alt="Squirrel" width="300" height="360">
                 <h4>Squirrel</h4>
                 <p>Kamikaze squirrels</p></li>
-            <li>
+            <li class="article-item">
+                <img src="assets/images/articles/bird.svg" alt="Bird" width="300" height="360">
                 <h4>Bird</h4>
                 <p>Birds Fight club</p></li>
         </ul>
@@ -46,22 +66,22 @@
             <input type="submit">
         </forma>
     </section>
-    <footer>
-        <h1 class="logo"><span class="svg-icon"></span>Wildlife</h1>
+    <footer class="footer-background ">
+        <h1 class="site-logo"><span class="svg-icon"></span>Wildlife</h1>
         <nav>
             <ul>
-                <li><a href="#"></a>Articles</li>
-                <li><a href="#"></a>About us</li>
-                <li><a href="#"></a>Learn more</li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Learn more</a></li>
             </ul>
-            <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
+            <ul class="social-link-list">
+                <li><a class="social-link-item" href="#">facbook</a></li>
+                <li><a class="social-link-item" href="#">instagram</a></li>
+                <li><a class="social-link-item" href="#">pinterest</a></li>
+                <li><a class="social-link-item" href="#">telegram</a></li>
             </ul>
         </nav>
     </footer>
-    
+    </div>
 </body>
 </html>

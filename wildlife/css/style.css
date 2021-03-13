@@ -13,47 +13,215 @@
   border-radius: 0px;
   background-image: url(../assets/images/background/main-view.svg);
 }
+.logo {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+}
+.site-logo {
+  width: 155px;
+  height: 60px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #f7f7f7;
+}
 
 .main-header,
 .main-footer {
-  padding: 0 110px;
+  padding: 0 120px;
+  /* padding-top: 26px; */
   display: flex;
+  align-items: center;
   justify-content: space-between;
   font-family: Open Sans;
+  /* font-family: Roboto, sans-serif; */
   font-style: normal;
   font-weight: normal;
   font-size: 23px;
-  line-height: 60px;
+  line-height: 48px;
   /* identical to box height, or 261% */
   /* font-light */
   color: #f7f7f7;
 }
+.header-height {
+  height: 100px;
+  justify-content: space-between;
+}
+.footer-height {
+  height: 359px;
+}
+
+.main-menu-button {
+  border: 2px solid #cd6326;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 48px;
+  color: #f7f7f7;
+}
 .svg-icon {
-  position: absolute;
+  /* position: absolute; */
   display: block;
-  width: max-content;
+  width: 70px;
+  height: 60px;
   background-image: url(../assets/images/logo/horns.svg);
   z-index: 1000;
 }
 .main-menu {
-  width: 800px;
   display: flex;
   justify-content: space-between;
 }
+
+.main-menu-item,
+.main-menu-button {
+  margin-left: 15px;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+.main-menu-item:hover,
+.main-menu-item:focus,
+.main-menu-button:hover,
+.main-menu-button:focus {
+  color: #cd6326;
+  cursor: pointer;
+}
+.search {
+  fill: #f7f7f7;
+}
+.search:hover,
+.search:focus {
+  fill: #cd6326;
+}
+
 /* ///Section-1///////////////// */
 
-.latest_articles {
-  padding: 110px;
+.main-part {
+  width: 1440px;
+  height: 1368px;
+  padding: 0 110px;
+  background-color: #cccccc;
 }
 .article-list {
   display: flex;
   justify-content: space-between;
 }
 
+/* ////////Survival/////// */
+.survival {
+  display: block;
+  padding: 0 110px;
+  padding-top: 100px;
+  padding-bottom: 51px;
+}
+
+.survival-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 2px;
+  color: #cd6326;
+}
+.donation-text {
+  display: block;
+  width: 274px;
+  padding-bottom: 65px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f7f7f7;
+}
+.donate-button {
+  width: 76px;
+  height: 27px;
+  /* left: 162px;
+top: 495px; */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  text-align: center;
+  color: #f7f7f7;
+  background-color: #cd6326;
+  width: 160px;
+  height: 60px;
+  /* left: 120px;
+top: 479px; */
+
+  /* /orange-main */
+
+  background: #cd6326;
+  border-radius: 5px;
+}
 /* ////////Footer////////////// */
 
 .footer-background {
+  display: block;
+  width: 1440px;
+  height: 359px;
+  display: flex;
+  align-items: center;
+  background-image: url(../assets/images/background/bg-footer.svg);
+}
+.main-footer {
+  display: flex;
+  align-items: center;
+  width: 1440px;
+}
+.footer-nav {
   display: flex;
   justify-content: space-between;
-  background-image: url(../assets/images/background/bg-footer.svg);
+  width: 840px;
+}
+.info-link {
+  display: flex;
+  justify-content: space-between;
+  width: 480px;
+}
+.social-link-list {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+}
+.icon-facbook {
+  display: block;
+  /* margin-left: 27px; */
+  width: 40px;
+  height: 40px;
+  background-image: url(../assets/images/icons/facebook.svg);
+  /* background: #f7f7f7;
+  border-radius: 20px; */
+}
+.icon-instagram {
+  display: block;
+  margin-left: 27px;
+  width: 40px;
+  height: 40px;
+  background-image: url(../assets/images/icons/instagram.svg);
+}
+.icon-pinterest {
+  display: block;
+  margin-left: 27px;
+  width: 40px;
+  height: 40px;
+  background-image: url(../assets/images/icons/pinterest.svg);
+}
+.icon-telegram {
+  display: block;
+  margin-left: 27px;
+  width: 40px;
+  height: 40px;
+  background-image: url(../assets/images/icons/telegram.svg);
 }
